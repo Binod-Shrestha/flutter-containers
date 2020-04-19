@@ -6,11 +6,29 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Lesson learnt:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<b>Containers</b>
+- Properties:<br>
+  - EdgeInsets.all()<br>
+  - EdgeInsets.only(right/left/top/bottom: double value)<br>
+  - EdgeInsets.symmetric(horizental/vertical: double value)<br>
+  - decoration:BoxDecoration<br>
+      - shape: BoxShape.circle,<br>
+      - shape:BoxShape.rectangle,<br>
+      - borderRadius: BorderRadius.all(Radius.circular(double value)<br>
+      - borderRadius : BorderRadius.only(topLeft: Radius.circular(double value), bottomRight:Radius.circular(double value))<br>
+      ###Gradient Property<br>
+        - gradient: LinearGradient<br>
+        - gradient: RadialGradient<br>
+        - colors:[Colors.color type[double value], Colors.color type[double value])<br>
+        ####Changing Direction:<br>
+            - begin: Alignment.topCenter,<br>
+            - end: Alignment.bottomCenter,<br>
+        - tileMode: TileMode.clamp<br>
+        - radius: double value<br>
+        - center:Alignment(x, y)<br>
+      
+  
+    
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
